@@ -169,8 +169,6 @@ async function submitPaleta() {
   fecharModalCadastro();
   document.location.reload(true);
 }
-
-// DELETAR UMA PALETA
 const deletePaleta = async () => {
   const id = event.target.id;
   console.log("id", id);
